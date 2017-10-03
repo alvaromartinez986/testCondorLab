@@ -1,0 +1,41 @@
+div.card-class {
+  box-shadow: 0px 0.5px 1px #888888;
+  height: 180px;
+  width: 30%;
+  margin: auto;
+  line-height: 1.8;
+}
+
+p.title{
+  text-transform: uppercase;
+  text-align: justify;
+  margin: 20px;
+  font-size: 80%;
+}
+
+p.body{
+  color: gray;
+  text-transform: uppercase;
+  text-align: justify;
+  margin: 20px;
+  font-size: 80%;
+
+}
+
+p.foot{
+  text-align: justify;
+  margin: 20px;
+  font-size: 80%;
+}
+
+hr.line {
+	border-top: 1px dotted #FAFAFA;
+  width: 90%;
+}
+
+div.button-course{
+  text-align: left;
+  margin-left: 15px;
+  height: 10px;
+  width: 90%;
+}
