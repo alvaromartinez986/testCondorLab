@@ -3,15 +3,14 @@ import React, {
 } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import CourseCard from './components/Cards/CourseCard.js'
+import SearchCourseCards from './components/SearchCards/SearchCourseCards'
 
 
 class App extends Component {
     render() {
-        return ( <
-            div className = "App" >
-            <
-            header className = "App-header" >
+        return (
+          <div className = "App" >
+            <header className = "App-header" >
             <
             img src = {
                 logo
@@ -23,8 +22,8 @@ class App extends Component {
             header > <
             p className = "App-intro" >
             To get started, edit < code > src / App.js < /code> and save to reload. < /
-            p > <
-            SearchCourseCards numberResults = "9852" / >
+            p >
+              <SearchCourseCards numberResults = "9852" / >
             <
             /div>
         );

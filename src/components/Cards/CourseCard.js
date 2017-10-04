@@ -10,8 +10,7 @@ class CourseCard extends React.Component {
 
   _createHtml() {
     return (
-      <div
-        className = "card-class"      >
+      <div className = "card-class">
         <p className = "title">
         {this.props.title}
         </p>
@@ -22,8 +21,7 @@ class CourseCard extends React.Component {
           {this.props.hours} Hrs  {this.props.description}
         </p>
         <hr class = "line"/>
-        <div
-          className = "button-course">
+        <div className = "button-course">
             <PriceButton name="$ 32.95"/>
         </div>
       </div>
